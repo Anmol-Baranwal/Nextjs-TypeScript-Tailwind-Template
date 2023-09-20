@@ -48,7 +48,6 @@ module.exports = {
       },
     },
   },
-  plugins: [require('tailwindcss-animate')],
+  plugins: [],
   darkMode: ['class', '[data-theme="dark"]'],
 }
-export default config
