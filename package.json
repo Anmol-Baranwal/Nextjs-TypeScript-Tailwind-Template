@@ -19,8 +19,8 @@
     "autoprefixer": "10.4.15",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
-    "eslint": "8.49.0",
     "eslint-config-next": "13.5.2",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
     "lucide-react": "^0.331.0",
     "next": "13.5.2",
     "postcss": "8.4.31",
@@ -34,6 +34,8 @@
     "@types/node": "20.6.3",
     "@types/react": "18.2.22",
     "@typescript-eslint/eslint-plugin": "^7.0.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
     "prettier-plugin-tailwindcss": "^0.5.11"
   },
   "engines": {
