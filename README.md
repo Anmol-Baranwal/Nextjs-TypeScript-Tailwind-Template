@@ -1,4 +1,4 @@
-## 🚀 Why this template?
+## 🚀 Why use this template?
 
 Creating an optimized project from scratch is time-consuming and challenging. I've created this template for me and others to streamline the process of starting new projects and add things along the way.
 
@@ -14,23 +14,25 @@ This template includes Next.js, TypeScript, and Tailwind CSS, along with ESLint 
 
 - It uses the latest version of Next.js `v14.1`, TypeScript `v5.2`, and TailwindCSS `v3.3`.
 - It has a strict environment of using npm `v10` or higher with `.npmrc` and node `v16` or higher. 
-- This includes [Code_OF_CONDUCT.md](/CODE_OF_CONDUCT.md), [Security.md](/Security.md), [MIT LICENSE](/LICENSE) as standards of a repository.
-- This uses prettier as a default code formatter. You can read the [prettier configuration](/prettier.config.js) and check what files are ignored by prettier in [.prettierignore](/.prettierignore).
+- This includes [`Code_OF_CONDUCT.md`](/CODE_OF_CONDUCT.md), [`Security.md`](/Security.md), [`MIT LICENSE`](/LICENSE) as standards of a repository.
+- This uses prettier as a default code formatter. You can read the [`prettier configuration`](/prettier.config.js) and check what files are ignored by prettier in [`.prettierignore`](/.prettierignore).
 - This has strict ESLint rules.
-   - You can read the [ESLint configurations](/.eslintrc.json) used here and ignored files in [.eslintignore](/.eslintignore).
+   - You can read the [`ESLint configurations`](/.eslintrc.json) used here and ignored files in [.`eslintignore`](/.eslintignore).
    - It warns of unused variables and usage of certain types in TypeScript.
-- This also uses advanced TypeScript Configurations like `noImplicitAny` & `strictNullChecks` which you can read in [tsconfig](/tsconfig.json).
-- This has a [icon component](/components/icons.tsx) system using Lucide Icons. You can easily add SVG icons without adding them in a different file. 
+- This also uses advanced TypeScript Configurations like `noImplicitAny` & `strictNullChecks` which you can read in [`tsconfig`](/tsconfig.json).
+- This has a [`icon component`](/components/icons.tsx) system using Lucide Icons. You can easily add SVG icons without adding them in a different file. 
    - You can import `Icons` from `@/components/icons.tsx` and use tailwind as usual. 
    - You will have to specify the height and width of the icon.
    - You will have to adjust the viewBox and fill the property as `currentColor` if you want to specify the color using tailwind.
    - You can also import icons from Lucide and use them as specified above.
 - This uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Open_Sans, a custom Google Font. You can view the file in `@/lib/fonts.ts`.
-- This includes [@/lib/utils.ts](./lib/utils.ts) that uses `clsx` and `tailwind merge` to allow the combination of combined classes.
+- This includes [`lib/utils.ts`](./lib/utils.ts) that uses `clsx` and `tailwind merge` to allow the combination of combined classes.
 - This includes a plugin that will automatically arrange the classnames in the correct order.
 - This also improves accessibility by using the `eslint-plugin-jsx-a11y` plugin to help catch accessibility issues early.
    - For example, this plugin warns if you have images without `alt` text, use the `aria-*` and `role` attributes incorrectly, and more. 
 - See below for the commands that you can use and what it does.
+
+<br>
 
 ## 💻 What are the commands that you can use?
 
@@ -43,6 +45,8 @@ These are the commands that you can use and what it does in brief.
 - `npm run type-check` - Checks TypeScript files for type errors without emitting any compiled code, ensuring type safety in the codebase.
 - `npm run format:write`: Formats specific files (located in the `app`, `lib`, and `components` directories) using Prettier, writes changes to disk, and utilizes cache
 - `npm run format:check`: Checks specified files for formatting issues without modifying them, ensuring code conformity to formatting standards, utilizes cache
+
+<br>
 
 ## ✅ Guidelines to run web app locally
 
@@ -58,7 +62,9 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
+Open [`http://localhost:3000`](http://localhost:3000) with your browser to see the application.
+
+<br>
 
 ## 📂 File Structure
 
@@ -80,6 +86,8 @@ A quick look at the structure of the template. This doesn't cover config and oth
 └── styles
     └──globals.css
 ```
+
+<br>
 
 <!--- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 <!--- -- 💜 Thanks For Visiting --------------------------------------------------------------------------------------------------------------------------- -->
